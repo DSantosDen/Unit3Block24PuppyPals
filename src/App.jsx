@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       {puppies.map((puppy) => {
         return (
+          //Why is this section displaying a warning?, also how do I use setPuppies in line 6
           <p
             onClick={() => {
               setFeatPupId(puppy.id);
